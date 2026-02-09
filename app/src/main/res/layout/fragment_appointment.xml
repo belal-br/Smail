@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AppointmentF"
+    android:padding="5dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Appointment"
+        android:textColor="#044153"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:layout_marginTop="60dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#044153"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:textColor="#044153"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/border"
+        android:padding="5dp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Age"
+        android:textColor="#044153"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:background="@drawable/border"
+        android:padding="5dp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Service"
+        android:textColor="#044153"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginTop="25dp"/>
+    <Spinner
+        android:id="@+id/service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/border"
+        android:padding="5dp"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textColor="#044153"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:background="@drawable/border"
+        android:padding="5dp"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:id="@+id/btn_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Book"
+        android:backgroundTint="#044153"
+        android:fontFamily="monospace"
+        android:layout_marginTop="100dp"/>
+
+
+</LinearLayout>

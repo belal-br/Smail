@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AboutUsFragment"
+    android:background="@color/white"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/download" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="About Smali"
+                android:textColor="#044153"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Smaile is a modern dental clinic dedicated to providing high-quality dental care in a comfortable and friendly environment. We believe that a healthy smile is the key to confidence and overall well-being.
+        Our clinic is equipped with advanced dental technologies, and our experienced team of dental professionals is committed to delivering personalized treatments tailored to each patient’s needs. From preventive care to cosmetic and restorative dentistry, we focus on precision, safety, and patient comfort.
+        At Smaile, we aim to build long-term relationships with our patients based on trust, transparency, and excellent results—because your smile matters to us."
+                android:textColor="#044153"
+                android:textSize="17sp"
+                 />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Vision"
+                android:textColor="#044153"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To become a trusted leader in dental care and smile enhancement."
+                android:textColor="#044153"
+                android:textSize="17sp"
+                android:fontFamily="monospace"
+                />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Mission"
+                android:textColor="#044153"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To provide comprehensive dental services with the highest standards of quality, care, and professionalism."
+                android:textColor="#044153"
+                android:textSize="17sp"
+                android:fontFamily="monospace"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

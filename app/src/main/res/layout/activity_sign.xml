@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SginIn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SignActivity"
+    android:background="@color/white"
+    android:padding="5dp"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#044153"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:padding="5dp"/>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="User Name"
+            android:textColor="#044153"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="User Name"
+            android:inputType="text"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Password"
+            android:textColor="#044153"
+            android:textSize="15sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="5dp" />
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:layout_gravity="center"
+            android:backgroundTint="#044153"
+            android:layout_marginTop="50dp"
+            android:fontFamily="monospace"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/txt_sginup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creat new account"
+        android:textColor="#044153"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="100dp"
+        android:gravity="center"/>
+</LinearLayout>
