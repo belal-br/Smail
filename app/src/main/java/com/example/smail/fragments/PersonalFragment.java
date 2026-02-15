@@ -20,7 +20,7 @@ public class PersonalFragment extends Fragment {
         edit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.framS, new EditPersonalInfo()).addToBackStack(null).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.framS, new DoctorsInClinic()).addToBackStack(null).commit();
             }
         });
         return root;

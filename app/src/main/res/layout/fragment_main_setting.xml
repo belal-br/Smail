@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Personal Details"
+            android:text="View Doctors"
             android:textColor="#044153"
             android:textStyle="bold"
             android:textSize="20dp"
@@ -112,4 +112,5 @@
         android:backgroundTint="#044153"
         android:layout_marginTop="100dp"
         android:layout_gravity="center"/>
+
 </LinearLayout>

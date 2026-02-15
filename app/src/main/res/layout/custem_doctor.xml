@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/doctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="10dp"
+        android:textColor="#044153"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/doctorEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="10dp"
+        android:textColor="#044153"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/doctorPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#044153"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:fontFamily="monospace"/>
+</LinearLayout>

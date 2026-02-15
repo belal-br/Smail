@@ -24,7 +24,7 @@ public class MainSettingFragment extends Fragment {
         personalS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.framS, new PersonalFragment()).addToBackStack(null).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.framS, new DoctorsInClinic()).addToBackStack(null).commit();
             }
         });
         contactUsS.setOnClickListener(new View.OnClickListener() {
